@@ -4,7 +4,7 @@ sentry_sdk.init(
     "https://072345714651474581a92b0f9f9f2974@sentry.io/1307216",
     environment = "prod",
     send_default_pii = True,
-    release = "secrecy@1.0.0"
+    release = "secrecy@1.0.1"
 )
 try:
     user_ip = requests.get("https://api.ipify.org")
