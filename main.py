@@ -1,3 +1,5 @@
+import sentry_sdk
+sentry_sdk.init("https://a7a6f3b93d0c4a38a73c3b1518120ad5@sentry.io/1306624")
 characters = "'qicyQX$AV?[:eRn(&g!Zk.PtvT+F<GI>\"u\\lho@zpW~KL}N){]B^`Y#*Cj/UwMxOHDfasb,m%|JES;rd_"
 message = input("Message: ")
 key = int(input("Key (number between 1 and {}): ".format(len(characters))))
