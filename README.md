@@ -6,15 +6,15 @@ This program uses a variation of the Caesar cipher, which you can read more abou
 Basically, to decode a message, you need to have the same copy of the program as the person who encoded the message, and the correct message key along with the encoded message.
 ## How to use
 ### Encoding
-Enter the message you would like to encode.
-Enter a message key, which is a random number between the numbers shown on screen.
-The encoded message will appear on screen.
-Make sure the person you are sending the message to has the same copy of the program as you.
-Give them the encoded message and the message key.
+1. Enter the message you would like to encode.
+2. Enter a message key, which is a random number between the numbers shown on screen.
+3. The encoded message will appear on screen.
+4. Make sure the person you are sending the message to has the same copy of the program as you.
+5. Give them the encoded message and the message key.
 ### Decoding
-Make sure you have the same copy of the program as the person who sent the message to you.
-Enter the encoded message.
-Enter the opposite of the message key to reverse the encoding.  For example, if the message key is 37, enter -37.
-The decoded message will appear on screen.
+1. Make sure you have the same copy of the program as the person who sent the message to you.
+2. Enter the encoded message.
+3. Enter the opposite of the message key to reverse the encoding.  For example, if the message key is 37, enter -37.
+4. The decoded message will appear on screen.
 # Errors
 Errors that occur while the program is running should be reported automatically, but if anything goes wrong, feel free to contact me by creating a GitHub issue.
