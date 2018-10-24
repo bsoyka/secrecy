@@ -2,7 +2,7 @@
 
 ## Requirements
 - [Python 3](https://www.python.org/downloads/)
-- [Git](https://git-scm.com/downloads) (optional)
+- [Git](https://git-scm.com/downloads) (optional, recommended)
 
 ## Installation
 To install this program, download the [`main.py`](main.py) file manually or use `git`:
