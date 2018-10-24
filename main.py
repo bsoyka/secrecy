@@ -19,7 +19,7 @@ message = input("Message: ")
 try:
     key = int(input("Key (number between 1 and {}): ".format(len(characters))))
 except:
-    print("Invalid key.")
+    print("Invalid key. Defaulting to 1")
     key = 1
 new_message = ""
 for character in message:
