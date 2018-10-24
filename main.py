@@ -16,7 +16,11 @@ with sentry_sdk.configure_scope() as scope:
 
 characters = "'qicyQX$AV?[:eRn(&g!Zk.PtvT+F<GI>\"u\\lho@zpW~KL}N){]B^`Y#*Cj/UwMxOHDfasb,m%|JES;rd_"
 message = input("Message: ")
-key = int(input("Key (number between 1 and {}): ".format(len(characters))))
+try:
+    key = int(input("Key (number between 1 and {}): ".format(len(characters))))
+except:
+    print("Invalid key. Defaulting to 1")
+    key = 1
 new_message = ""
 for character in message:
     if character in characters:
