@@ -1,8 +1,8 @@
 # Instructions for Testers
 
 ## Requirements
-- Python 3
-- Git (optional)
+- [Python 3](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads) (optional)
 
 ## Installation
 To install this program, download the [`main.py`](main.py) file manually or use `git`:
