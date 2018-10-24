@@ -1,4 +1,7 @@
 # Secrecy
+
+![Sentry Badge](https://img.shields.io/badge/sentry-reporting%20errors-493d54.svg)
+
 A simple and secure secret message encoder/decoder.
 ## How it works
 Secrecy works in a pretty simple yet secure way.  Built into each copy of the program is a "base key," which is a random string of characters.
