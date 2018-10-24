@@ -17,4 +17,4 @@ Basically, to decode a message, you need to have the same copy of the program as
 3. Enter the opposite of the message key to reverse the encoding.  For example, if the message key is 37, enter -37.
 4. The decoded message will appear on screen.
 # Errors
-Errors that occur while the program is running should be reported automatically, but if anything goes wrong, feel free to contact me by creating a GitHub issue.
+Errors that occur while the program is running should be reported automatically, but if anything goes wrong, feel free to contact me by [creating a GitHub issue](https://github.com/bsoyka/secrecy/issues/new/choose).
