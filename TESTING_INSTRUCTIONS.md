@@ -5,7 +5,7 @@
 - [Git](https://git-scm.com/downloads) (optional, recommended)
 
 ## Accessing the Command Prompt
-To use the dollowing commands, you will need to open the command prompt.  To open the Windows Command Prompt, first press `Ctrl` + `R`.  In the window that appears, type in `cmd` and press `Enter`.  Now you can enter the following commands.
+To use the dollowing commands, you will need to open the command prompt.  To open the Windows Command Prompt, first press `Windows Key` + `R`.  In the window that appears, type in `cmd` and press `Enter`.  Now you can enter the following commands.
 
 ## Installation
 To install this program, download the [`main.py`](main.py) file manually or use `git`:
