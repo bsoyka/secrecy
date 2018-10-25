@@ -12,7 +12,6 @@ except:
     pass
 with sentry_sdk.configure_scope() as scope:
     scope.user = {"ip_address": user_ip}
-)
 
 characters = "'qicyQX$AV?[:eRn(&g!Zk.PtvT+F<GI>\"u\\lho@zpW~KL}N){]B^`Y#*Cj/UwMxOHDfasb,m%|JES;rd_"
 message = input("Message: ")
