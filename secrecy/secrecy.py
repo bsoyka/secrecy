@@ -20,7 +20,13 @@ class Secrecy:
         self.characters = "'qicyQX$AV?[:eRn(&g!Zk.PtvT+F<GI>\"u\\lho@zpW~KL}N){]B^`Y#*Cj/UwMxOHDfasb,m%|JES;rd_"
 
     def encode(self, message, key):
-        if abs(key) > len(self.characters):
+        error_msg = "Invalid key. Defaulting to 1"
+        try:
+            key = int(key)
+            if abs(key) > len(self.characters):
+                print(error_msg)
+        except ValueError:
+            print(error_msg)
             key = 1
 
         new_message = ""
