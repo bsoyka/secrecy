@@ -19,7 +19,7 @@ Move to the folder of the installation:
 
 
 ```bash
-cd secrecy
+cd secrecy/secrecy
 ```
 
 This project has a few other things that it requires, so you will need to install the dependencies using this command:
