@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     install_requires=[
         'requests==2.20.1',
-        'sentry-sdk==0.5.4',
+        'sentry-sdk==0.5.5',
     ],
     include_package_data=True,
 )
