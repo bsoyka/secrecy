@@ -24,7 +24,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        'requests==2.21.0',
+        'requests==2.22.0',
         'sentry-sdk==0.7.0',
     ],
     include_package_data=True,
